@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slideshow</title>
+    <style type="text/css">
+    
+        #slideshow {
+            overflow: hidden;
+            width: 40%;
+        }
+
+        #slideshow figure {
+            width: 600%;
+            margin: 0;
+            position: relative;
+            left: 0;
+            animation: 24s slider infinite;
+        }
+        img {
+            width: 16.66666666666667%;
+            height: 100%;
+            float: left;
+            
+        }
+    
+        @keyframes slider {
+            0% {
+                left: 0;
+            }
+            15% {
+                left: 0;
+            }
+            20% {
+                left: -100%;
+            }
+            35% {
+                left: -100%;
+            }
+            40% {
+                left: -200%;
+            }
+            55% {
+                left: -200%;
+            }
+            60% {
+                left: -300%;
+            } 
+            75% {
+                left: -300%;
+            }
+            80% {
+                left: -400%;
+            }
+            95% {
+                left: -400%;
+            }
+            100% {
+                left: -500%;
+            
+            
+            }
+    
+            
+
+
+        
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div id="slideshow">
+        <figure>
+            <img src="Img/slide1.JPG">
+            <img src="Img/slide2.JPG">
+            <img src="Img/slide3.JPG">
+            <img src="Img/slide4.JPG">
+            <img src="Img/slide5.JPG">
+            <img src="Img/slide1.JPG">
+        </figure>
+    </div>
+</body>
+</html>
